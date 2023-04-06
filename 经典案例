@@ -1,1 +1,32 @@
+Console.Title = "在控制台中，录入枪的信息";
+
+
+Console.WriteLine("请输入枪的名称");
+
+
+string gunName = Console.ReadLine();
+
+
+Console.WriteLine("请输入弹夹容量");
+
+
+string ammoCapacity = Console.ReadLine();
+
+
+Console.WriteLine("请输入当前弹夹内子弹数量");
+
+
+string numAmmoBullet = Console.ReadLine();
+
+
+Console.WriteLine("请输入剩余子弹数量");
+
+
+string residueBulletNumber = Console.ReadLine();
+
+
+Console.WriteLine("枪的名称：" + gunName + "，弹夹容量：" + ammoCapacity + "，弹夹内子弹数量：" + numAmmoBullet + "，弹夹内子弹数量：" + residueBulletNumber + "。");
+
+
+Console.ReadLine();
 
