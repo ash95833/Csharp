@@ -1,0 +1,15 @@
+using System;
+
+namespace Day01
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.Title = "俺的第一个程序";
+
+            Console.WriteLine("请输入您的姓名!");
+            String name = Console.ReadLine();
+
+            Console.WriteLine("您好" + name);
+            Console.ReadLine();
