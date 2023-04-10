@@ -1,1 +1,35 @@
+ static void Main()
+        {
+            Console.WriteLine("请输入性别");
+            string sex = Console.ReadLine();
 
+            if (sex == "男")
+            {
+                Console.WriteLine("您好，先生");
+            }
+        }
+
+
+
+
+
+        static void Main1()
+        {
+
+            Console.WriteLine("请输入性别");
+            string sex = Console.ReadLine();
+
+            if (sex == "男")
+            {
+                Console.WriteLine("您好，先生");
+            }
+            else if (sex == "女")
+            {
+                Console.WriteLine("您好，女士");
+            }
+            else
+            {
+                Console.WriteLine("性别未知");
+            }
+        }
+    
