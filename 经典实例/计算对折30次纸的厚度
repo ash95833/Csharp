@@ -1,1 +1,17 @@
+float thickness = 0.00001f;
 
+            for (int i = 0; i < 30; i++)
+            {
+                thickness *= 2;
+            }
+            Console.WriteLine("厚度为：" + thickness);
+
+            //1-100只见数字累加
+            int sum = 0;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 != 0) continue;
+                //1+2+3+4+......+100
+                sum += i;
+            }
+            Console.WriteLine(sum);
