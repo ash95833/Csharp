@@ -1,1 +1,12 @@
-
+  float height = 100;
+            int count = 0;
+            float distance = height;
+            while (height/2 >=0.01f)
+            {
+                height /= 2;
+                count++;
+                distance += height * 2;
+                Console.WriteLine("第{0}次弹起高度为：{1}。",count,height);
+            }
+            Console.WriteLine("经过{0}次最终落地",count);
+            Console.WriteLine("总共经过{0：f1}米。",distance);
