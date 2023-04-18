@@ -1,1 +1,19 @@
-
+//创建一个随机数工具
+            Random random = new Random();
+            //产生一个随机数
+            int number = random.Next(1, 101);
+            int inputNumber;
+            int count = 0;
+            do
+            {
+                count++;
+                Console.WriteLine("请输入第一个数字：");
+                inputNumber = int.Parse(Console.ReadLine());
+                if (inputNumber > number)
+                    Console.WriteLine("大了");
+                else if (inputNumber < number)
+                    Console.WriteLine("小了");
+                else
+                    Console.WriteLine("猜对了，共猜对了{0}次。", count);
+            }
+            while (number != inputNumber);//满足条件继续执行循环体
