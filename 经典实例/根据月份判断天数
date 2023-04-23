@@ -1,1 +1,28 @@
 
+            Console.WriteLine("请输入月份");
+            int month = int.Parse(Console.ReadLine());
+            int day;
+            if (month >= 1 && month <= 12)
+            {
+                switch (month)
+                {
+                     case2:
+                day = 28;
+                break;
+            case4:
+            case6:
+            case9:
+            case11:
+                day = 30;
+                break;
+                default:
+                    day = 31;
+                break;
+            }
+            }
+
+            else
+            {
+                day = 0;
+            }
+            Console.WriteLine("{0}月具有{1}天。", month, day);
