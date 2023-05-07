@@ -1,0 +1,41 @@
+static void Main()
+        {
+            for(int i=0;i<5;i++)
+            {
+                Console.WriteLine("Unity");
+            }
+            
+        }
+
+        static void Main1()
+        {
+            for(int i=0;i<=6;i+=2)
+            {
+                Console.WriteLine("i");
+            }
+        }
+
+        static void Main2()
+        {
+            int i = 0;
+            for(; i<=10;)
+                Console.WriteLine(i);
+                i += 3;
+        }
+
+        static void Main3()
+        {
+            for(int i = 3;i<9;)
+            {
+                Console.WriteLine(i);
+                i += 3;
+            }
+        }
+
+        static void Main4()
+        {
+            for(int i = 3; i += 3)
+            {
+                Console.WriteLine(i);
+            }
+        }
