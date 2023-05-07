@@ -1,0 +1,18 @@
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //for循环实现的阶乘
+            int number = 1;//阶乘的积
+            for (int i = 1; i <=5; i++)
+            {
+                number *= i;
+                
+            }
+            Console.WriteLine(number);
+            Console.ReadLine();
+        }
+    }
+}
