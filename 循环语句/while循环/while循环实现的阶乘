@@ -1,0 +1,20 @@
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //while循环实现的阶乘
+            int number = 1;
+            int value = 1;//阶乘的积
+            while (number <= 5)
+            {
+                value *= number;
+                number++;
+               
+            }
+            Console.WriteLine(value);//输出积
+            Console.ReadLine();
+        }
+    }
+}
