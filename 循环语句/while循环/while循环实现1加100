@@ -1,0 +1,10 @@
+ //while循环实现1加100
+            int num = 1;
+            int sum = 0;
+            while (num <= 100)
+            {
+                sum = sum + num;
+                num++;
+            }
+            Console.WriteLine(sum);
+            Console.ReadKey ();
