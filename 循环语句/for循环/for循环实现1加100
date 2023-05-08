@@ -1,0 +1,9 @@
+//for循环实现1加100
+            int num = 0;
+            for (int i = 1; i <=100; i++)
+            {
+                num += i;
+
+            }
+            Console.WriteLine(num);
+            Console.ReadLine();
